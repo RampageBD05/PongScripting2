@@ -252,6 +252,7 @@ GameObject:
   - component: {fileID: 408239602}
   - component: {fileID: 408239603}
   - component: {fileID: 408239604}
+  - component: {fileID: 408239605}
   m_Layer: 0
   m_Name: Player Paddle
   m_TagString: Untagged
@@ -388,6 +389,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &408239605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408239599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ef4bc56db169c346953a1742e3cf9c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BounceStrength: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,6 +499,7 @@ GameObject:
   - component: {fileID: 1346571516}
   - component: {fileID: 1346571519}
   - component: {fileID: 1346571520}
+  - component: {fileID: 1346571521}
   m_Layer: 0
   m_Name: Computer Paddle
   m_TagString: Untagged
@@ -621,6 +636,19 @@ MonoBehaviour:
   speed: 8
   _RigidBody: {fileID: 0}
   ball: {fileID: 1472142709}
+--- !u!114 &1346571521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346571515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ef4bc56db169c346953a1742e3cf9c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BounceStrength: 1
 --- !u!1 &1424274907
 GameObject:
   m_ObjectHideFlags: 0
